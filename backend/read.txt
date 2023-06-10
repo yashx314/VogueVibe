@@ -1,0 +1,11 @@
+1. Models: Models define the structure and behavior of your data entities. They represent the data layer of your application.
+
+2. Controllers: Controllers handle the logic and business operations of your application. They receive requests from the routes and interact
+with the models to perform actions such as retrieving data, manipulating it, and sending responses back to the client. 
+
+3. Routes: Routes define the API endpoints that clients can access to interact with your application. They map incoming requests to the 
+appropriate controller methods based on the requested route and HTTP method.
+
+4. Utils: Utils (utility) folder typically contains helper functions, middleware, or utility modules that assist in various tasks across
+your application. These can include functions for data validation, authentication, authorization, error handling, or any other common 
+functionalities.
